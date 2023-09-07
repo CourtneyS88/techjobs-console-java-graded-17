@@ -40,6 +40,8 @@ public class JobData {
                 values.add(aValue);
             }
         }
+        //Bonus: sort the results
+        Collections.sort(values);
 
         return values;
     }
